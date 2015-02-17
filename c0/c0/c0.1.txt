@@ -1,0 +1,19 @@
+int sum,count;
+int hanshu()
+{
+int i,temp;
+i=count;
+temp=0;
+while(i)
+{
+temp=temp+i;
+i=i-1;
+}
+return(temp);
+}
+void main()
+{
+scanf(count);
+sum=hanshu();
+printf(sum);
+}

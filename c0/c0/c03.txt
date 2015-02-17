@@ -1,0 +1,18 @@
+void main()
+{
+  int sn,hn,m;
+  sn=100;
+  hn=50;
+  m=8;
+  while(m)
+  {
+    sn=sn+2*hn;
+    hn=hn/2;
+    m=m-1;
+  }
+  printf(sn);
+  printf(hn);
+}
+
+
+/*一个物体从100米处落下,每次落地后反跳回原高度的一半,求在经过10次反弹后,经过多少米?*/

@@ -1,0 +1,15 @@
+void main()
+{
+int i,f1,f2;
+f1=1;
+f2=1;
+i=20;
+while(i)
+{
+  printf(f1);
+  printf(f2);
+  f1=f1+f2;
+  f2=f1+f2;
+  i=i-1;
+ }
+}
